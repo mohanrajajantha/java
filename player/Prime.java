@@ -20,14 +20,16 @@ public class Prime {
 				}
 			}
 		}
+		int count=0
 		for(int i=0;i<k;i++)
 		{
 			if(b[i]==true)
 			{
 				if(i>=n&&i<=k)
-					System.out.println(i+" ");
+					count++;
 			}
 		}
+		System.out.println(count);
 	}
 
 	public static void main(String[] args) {
