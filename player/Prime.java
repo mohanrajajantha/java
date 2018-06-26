@@ -24,7 +24,7 @@ public class Prime {
 		{
 			if(b[i]==true)
 			{
-				if(i>n&&i<k)
+				if(i>=n&&i<=k)
 					System.out.println(i+" ");
 			}
 		}
